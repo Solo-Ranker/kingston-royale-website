@@ -1,0 +1,9 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from jp!",
+	"nav_project": "プロジェクト",
+	"nav_about": "私たちについて",
+	"nav_design_partners": "デザインパートナー",
+	"nav_news": "ニュース",
+	"nav_contact": "お問い合わせ"
+}
