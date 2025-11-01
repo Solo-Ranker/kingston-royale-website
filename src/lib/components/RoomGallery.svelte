@@ -3,7 +3,7 @@
 		<div class="row g-4 justify-content-center">
 			<div class="col-lg-6 text-center">
 				<div class="subtitle" data-wow-delay=".0s">Elevated Comfort</div>
-				<h2 class="" data-wow-delay=".2s">Choose an Unit</h2>
+				<h2 class="" data-wow-delay=".2s">Choose a Unit</h2>
 			</div>
 		</div>
 	</div>

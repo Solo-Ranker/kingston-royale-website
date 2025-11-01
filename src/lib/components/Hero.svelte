@@ -26,7 +26,7 @@
 			<div class="swiper-wrapper">
 				<!-- Slides -->
 				<div class="swiper-slide">
-					<img src="/kingston/hero/bedroom.JPG" alt="Bedroom" class="swiper-inner" />
+					<img src="src/lib/assets/l-hero.jpg" alt="Bedroom" class="swiper-inner" />
 					<div class="sw-overlay op-4"></div>
 				</div>
 

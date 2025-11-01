@@ -38,7 +38,7 @@
 	});
 </script>
 
-<header class="transparent header-light header-float">
+<header class="transparent header-dark header-float">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -49,8 +49,8 @@
 							<div id="logo">
 								<a href="/">
 									<img
-										class="logo-main w-50 h-50 object-cover"
-										src="/kingston/logo/transparent-logo.png"
+										class="logo-main w-100 h-50 object-cover"
+										src="src/lib/assets/logo.png"
 										alt="Kingston Logo"
 									/>
 									<img
