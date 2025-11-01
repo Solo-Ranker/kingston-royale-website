@@ -20,7 +20,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/1.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/1.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
@@ -43,7 +43,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/2.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/2.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
@@ -66,7 +66,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/3.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/3.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
@@ -89,7 +89,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/4.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/4.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
@@ -112,7 +112,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/5.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/5.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
@@ -135,7 +135,7 @@
 						<div class="item">
 							<div class="hover text-light relative overflow-hidden text-center">
 								<div class="overflow-hidden">
-									<img src="images/apartment/6.jpg" class="hover-scale-1-1 w-100" alt="" />
+									<img src="apartment/6.jpg" class="hover-scale-1-1 w-100" alt="" />
 								</div>
 								<div class="abs hover-op-1 hover-mt-40 abs-centered z-4 w-100 px-4">
 									<a class="btn-main btn-line fx-slide" href="02_apartment-room-single.html"
