@@ -49,7 +49,7 @@
 							<div id="logo">
 								<a href="/">
 									<img
-										class="logo-main w-100 h-50 object-cover"
+										class="logo-main w-90 h-50 object-cover"
 										src="src/lib/assets/logo.png"
 										alt="Kingston Logo"
 									/>
@@ -71,7 +71,7 @@
 						<div class="de-flex-col">
 							<div class="de-flex-col header-col-mid">
 								<ul id="mainmenu">
-									<li>
+									<!-- <li>
 										<a class="menu-item" href="#">Home</a>
 										<ul class="mega">
 											<li>
@@ -160,24 +160,24 @@
 												</div>
 											</li>
 										</ul>
-									</li>
-									<li><a class="menu-item" href="#section-overview">Overview</a></li>
-									<li><a class="menu-item" href="#section-rooms">Rooms</a></li>
-									<li><a class="menu-item" href="#section-gallery">Gallery</a></li>
-									<li><a class="menu-item" href="#section-floorplan">Floorplan</a></li>
-									<li><a class="menu-item" href="#section-contact">Contact</a></li>
+									</li> -->
+									<li><a class="menu-item" href="#section-overview">OUR PROJECTS</a></li>
+									<li><a class="menu-item" href="#section-rooms">BUY</a></li>
+									<li><a class="menu-item" href="#section-gallery">RENT</a></li>
+									<li><a class="menu-item" href="#section-floorplan">ABOUT US</a></li>
+									<li><a class="menu-item" href="#section-contact">CONTACT US</a></li>
 								</ul>
 							</div>
 						</div>
 
 						<div class="de-flex-col">
-							<a class="btn-main fx-slide w-100" href="#section-contact"
+							<!-- <a class="btn-main fx-slide w-100" href="#section-contact"
 								><span>Schedule a Visit</span></a
 							>
 
 							<div class="menu_side_area">
 								<span id="menu-btn"></span>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
