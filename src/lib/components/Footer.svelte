@@ -29,7 +29,7 @@
 	<div class="subfooter">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">Copyright 2025 - Residem by Designesia</div>
+				<div class="col-md-12 text-center">Copyright 2025 - Kingston Royale</div>
 			</div>
 		</div>
 	</div>

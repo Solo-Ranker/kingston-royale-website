@@ -55,18 +55,42 @@ Table of content:
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
 
+@font-face {
+  font-family: 'Optima';
+  src: url('/src/lib/fonts/Optima-Regular.woff2') format('woff2'),
+       url('/src/lib/fonts/Optima-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optima';
+  src: url('/src/lib/fonts/Optima-Bold.woff2') format('woff2'),
+       url('/src/lib/fonts/Optima-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Your CSS variables */
+:root {
+  --body-font: "Optima", Candara, "Segoe UI", sans-serif;
+  --heading-font: "Optima", Candara, "Segoe UI", sans-serif;
+}
+
 * {
   /* body font */
-  --body-font: "DM Sans", Helvetica, Arial, sans-serif;
+  /* --body-font: "DM Sans", Helvetica, Arial, sans-serif;
   --body-font-size: 16px;
   --body-font-color: rgba(0, 0, 0, .6);
   --body-font-color-dark: rgba(255, 255, 255, .6);
-  --body-font-weight: 400;
+  --body-font-weight: 400; */
   /* heading font */
-  --heading-font: "Jost", Helvetica, Arial, sans-serif;
+  /* --heading-font: "Jost", Helvetica, Arial, sans-serif;
   --heading-font-weight: 400;
   --heading-font-color: #000000;
-  --heading-text-transform: none;
+  --heading-text-transform: none; */
   /* h1 */
   --h1-font-size: 60px;
   --h1-font-weight: var(--heading-font-weight);
@@ -118,11 +142,11 @@ Table of content:
   --bg-color-even: #E8E8E8;
   --bg-color-odd: #F4F4F4;
   --bg-light: #F8F9FA;
-  --bg-dark-1: #103C3B;
-  --bg-dark-2: #1E4645;
-  --bg-dark-3: #0c3130;
+  --bg-dark-1: #433f3c;
+  --bg-dark-2: #1c3132;
+  --bg-dark-3: #6f6a5f;
   --bg-dark-1-rgb: 16, 60, 59;
-  --bg-grey: #eeeeee;
+  --bg-grey: #f4f0ed;
   --bg-gradient-1: 0deg, rgba(var(--primary-color-rgb), .1) 0%, rgba(var(--secondary-color-rgb), .2) 100%;
   --swiper-theme-color: var(--secondary-color);
   --rounded-1: 10px;
@@ -8724,6 +8748,10 @@ footer .tiny-border span {
   border: dashed 1px white;
 }
 
+.trans-50 {
+  opacity: 0.3;
+}
+
 /* border bottom white with transparency */
 .border-bottom-white-trans-1 {
   border-bottom: solid 1px rgba(255, 255, 255, .1);
@@ -10108,6 +10136,7 @@ p.slider-teaser {
 .de-flex #mainmenu {
   margin: 0;
 }
+
 
 .col-start,
 .col-end {
@@ -13877,6 +13906,10 @@ img {
     display: none;
   }
 
+  .hidden {
+    display: none;
+  }
+
   .sm-hide {
     display: none;
   }
@@ -14296,6 +14329,10 @@ img {
   .text-item {
     font-size: 48px;
     line-height: 48px;
+  }
+
+  .text-upper {
+    text-transform: uppercase;
   }
 
   .text-item i {
