@@ -19,8 +19,8 @@
 					</div>
 					<div>
 						<h3 class="fs-20">Contact Us</h3>
-						T. +929 333 9296<br />
-						M. contact@residem.com
+						+855 88 372 439<br />
+						admin@kingstonroyale.com
 					</div>
 				</div>
 			</div>

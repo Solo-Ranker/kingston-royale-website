@@ -10,6 +10,7 @@
 	import KingstonRoyaleHero from "$lib/components/KingstonRoyaleHero.svelte";
 	import KingstonResidenceHero from "$lib/components/KingstonResidenceHero.svelte";
 	import ContactHome from "$lib/components/ContactHome.svelte";
+	import AboutUsHome from "$lib/components/AboutUsHome.svelte";
 
 </script>
 
@@ -25,4 +26,5 @@
 <!-- <RoomGallery />
 <AptGallery />
 <Floorplan /> -->
+<AboutUsHome />
 <ContactHome />

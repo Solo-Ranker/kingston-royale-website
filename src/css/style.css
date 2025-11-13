@@ -14744,6 +14744,32 @@ img {
   height: 100%;
 }
 
+.about-home-section {
+  background-image: url('src/lib/assets/logoblack.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+}
+
+.logo-bg {
+  position: absolute;
+    left: 0;
+    top: 50px;
+    width: 80vw;
+    height: 400px;
+    background-image: url('path/to/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.08;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.relative.z-2.container {
+    position: relative;
+    z-index: 2;
+}
+
 @media (min-width: 992px) {
   .half-fluid .left-half {
     padding-left: 0 !important;
