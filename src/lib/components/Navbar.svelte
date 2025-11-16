@@ -43,7 +43,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="header-inner">
-					<div class="de-flex">
+					<div class="de-flex mr-5 ml-5 p-1.5">
 						<div class="de-flex-col">
 							<!-- logo begin -->
 							<div id="logo">
@@ -168,16 +168,6 @@
 									<li><a class="menu-item" href="#section-contact">CONTACT US</a></li>
 								</ul>
 							</div>
-						</div>
-
-						<div class="de-flex-col">
-							<!-- <a class="btn-main fx-slide w-100" href="#section-contact"
-								><span>Schedule a Visit</span></a
-							>
-
-							<div class="menu_side_area">
-								<span id="menu-btn"></span>
-							</div> -->
 						</div>
 					</div>
 				</div>

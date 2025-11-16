@@ -1,80 +1,115 @@
 <section id="section-contact" class="text-dark">
 	<div class="container">
 		<div class="row g-4 justify-content-center">
-			<div class="col-lg-6 text-center">
-				<div class="subtitle s2 mb-3" data-wow-delay=".0s">Contact Us</div>
-				<h2 class="" data-wow-delay=".2s">Schedule a Visit</h2>
+			<div class="col-lg-12 text-center">
+				<h2 class="title-with-lines">KINGSTON ESTATE</h2>
 			</div>
 		</div>
 
 		<div class="row g-4 justify-content-center">
-			<div class="col-md-6">
+			<div class="col-md-8">
 				<form name="bookingForm" id="booking_form" method="post" action="booking.php">
 					<div class="row g-4">
+						<!-- First Name and Last Name -->
 						<div class="col-md-6">
-							<input
-								type="text"
-								name="name"
-								id="name"
-								class="form-control"
-								placeholder="Your Name"
-								required
-							/>
-						</div>
-
-						<div class="col-md-6">
-							<input
-								type="text"
-								name="email"
-								id="email"
-								class="form-control"
-								placeholder="Your Email"
-								required
-							/>
-						</div>
-
-						<div class="col-md-6">
-							<div id="date" class="input-group date relative" data-date-format="mm-dd-yyyy">
-								<i class="id-color icofont-calendar absolute end-0 top-0 pe-3 pt-3"></i>
-								<input class="form-control" name="date" type="text" />
-								<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+							<div class="form-group">
+								<label for="first_name" class="form-label">First Name</label>
+								<input
+									type="text"
+									name="first_name"
+									id="first_name"
+									class="form-control-minimal"
+									required
+								/>
 							</div>
 						</div>
 
 						<div class="col-md-6">
-							<div class="relative">
-								<select name="time" id="time" class="form-control">
-									<option value="10:00">10:00</option>
-									<option value="11:00">11:00</option>
-									<option value="12:00">12:00</option>
-									<option value="13:00">13:00</option>
-									<option value="14:00">14:00</option>
-									<option value="15:00">15:00</option>
-									<option value="16:00">16:00</option>
-									<option value="17:00">17:00</option>
-									<option value="18:00">18:00</option>
-									<option value="19:00">19:00</option>
-									<option value="20:00">20:00</option>
-								</select>
-								<i class="id-color icofont-simple-down absolute end-0 top-0 pe-3 pt-3"></i>
+							<div class="form-group">
+								<label for="last_name" class="form-label">Last Name</label>
+								<input
+									type="text"
+									name="last_name"
+									id="last_name"
+									class="form-control-minimal"
+									required
+								/>
 							</div>
 						</div>
 
+						<!-- Email -->
 						<div class="col-md-12">
-							<textarea
-								name="message"
-								id="message"
-								class="form-control h-150px"
-								placeholder="Submit Request"
-								required
-							></textarea>
+							<div class="form-group">
+								<label for="email" class="form-label">Email</label>
+								<input type="email" name="email" id="email" class="form-control-minimal" required />
+							</div>
 						</div>
 
+						<!-- Mobile Number with Country Code -->
 						<div class="col-md-12">
-							<div class="text-center">
-								<div id="submit">
-									<input type="submit" id="send_message" value="Send Message" class="btn-main" />
+							<div class="form-group">
+								<label for="mobile" class="form-label">Mobile Number</label>
+								<div class="mobile-input-group">
+									<div class="country-code-selector">
+										<input type="text" value="+855" class="country-code" readonly />
+										<i class="dropdown-icon">▼</i>
+									</div>
+									<input
+										type="tel"
+										name="mobile"
+										id="mobile"
+										class="form-control-minimal mobile-number"
+										required
+									/>
 								</div>
+							</div>
+						</div>
+
+						<!-- Checkboxes -->
+						<div class="col-md-12">
+							<div class="checkboxes-row">
+								<label class="custom-checkbox">
+									<input type="checkbox" name="communications" />
+									<span class="checkbox-box"></span>
+									<span class="checkbox-label"
+										>I would like to receive communications from OMNIYAT.</span
+									>
+								</label>
+
+								<label class="custom-checkbox">
+									<input type="checkbox" name="privacy_policy" required />
+									<span class="checkbox-box"></span>
+									<span class="checkbox-label"
+										>I have read and agree to the <a href="#" class="privacy-link">Privacy Policy</a
+										>.</span
+									>
+								</label>
+							</div>
+						</div>
+
+						<!-- Contact Preference -->
+						<div class="col-md-12">
+							<div class="contact-preference">
+								<p class="preference-title fs-16">Please select a preferred mode of contact:</p>
+								<div class="radio-group">
+									<label class="custom-radio">
+										<input type="radio" name="contact_mode" value="phone" checked />
+										<span class="radio-circle"></span>
+										<span class="radio-label">Request a phone call back</span>
+									</label>
+									<label class="custom-radio">
+										<input type="radio" name="contact_mode" value="email" />
+										<span class="radio-circle"></span>
+										<span class="radio-label">Request email communications</span>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<!-- Submit Button -->
+						<div class="col-md-12">
+							<div class="mt-4 text-center">
+								<button type="submit" class="btn-submit">Submit</button>
 							</div>
 						</div>
 					</div>

@@ -11,6 +11,9 @@
 	import KingstonResidenceHero from "$lib/components/KingstonResidenceHero.svelte";
 	import ContactHome from "$lib/components/ContactHome.svelte";
 	import AboutUsHome from "$lib/components/AboutUsHome.svelte";
+	import LResidence from "$lib/components/LResidence.svelte";
+	import ResidenceH from "$lib/components/ResidenceH.svelte";
+	import KingstonSuites from "$lib/components/KingstonSuites.svelte";
 
 </script>
 
@@ -19,11 +22,12 @@
 <OurProjects />
 <KingstonRoyaleHero />
 <KingstonResidenceHero />
-<KingstonRoyaleHero />
-<KingstonResidenceHero />
-<HomeOverview />
+<LResidence />
+<ResidenceH />
+<KingstonSuites />
+<!-- <HomeOverview />
 <Facility />
-<!-- <RoomGallery />
+<RoomGallery />
 <AptGallery />
 <Floorplan /> -->
 <AboutUsHome />

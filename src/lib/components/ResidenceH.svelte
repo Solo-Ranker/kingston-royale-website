@@ -1,5 +1,5 @@
 <script>
-	import RoyaleBuilding from '$lib/assets/RoyaleBuilding.png';
+	import RoyaleBuilding from '$lib/assets/ResidenceH.png';
 </script>
 
 <section
@@ -20,13 +20,13 @@
 				<div class="col-lg-6 offset-lg-6 relative z-3">
 					<div class="ms-lg-5 ps-lg-5 my-5 py-5">
 						<div class="subtitle">SOLD OUT</div>
-						<p class="fs-40 lh-1-3">KINGSTON RESIDENCE</p>
+						<p class="fs-40 lh-1-3">RESIDENCE H</p>
 						<p class="">
-							Kingston Residence is a 19-storey serviced apartment with 83 units, offering varieties
-							of 1 and 2 bedroom in central Phnom Penh. Located in Boeung Tumpun (BTB), it provides
-							easy access to key city destinations while maintaining a sense of privacy and ease.
-							With elegant interiors, attentive management, and hotel-standard amenities, Kingston
-							Residence delivers a refined and comfortable living experience for modern residents.
+							Residence H Sensok is a 29-storey fully occupied condominium located next to AEON Mall
+							2, offering stylish one- and two-bedroom units designed for modern city living.
+							Renowned for its signature sky garden, the development provides residents with a
+							serene escape above the city skyline. Combining convenience, comfort, and contemporary
+							design, Residence H Sensok has become one of the area’s most sought-after addresses.
 						</p>
 						<a class="btn-main fx-slide" href="#"><span>Learn More</span></a>
 					</div>

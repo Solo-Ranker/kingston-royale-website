@@ -4,7 +4,7 @@
 		<div class="row g-4 gx-5 justify-content-center">
 			<div class="col-lg-8 mb-20 text-center">
 				<!-- <div class="subtitle s2 fadeInUp mb-3" data--delay=".0s">Near by Places</div> -->
-				<h2 class="fadeInUp" data--delay=".2s">About Us</h2>
+				<h2 class="fadeInUp" data--delay=".2s">ABOUT US</h2>
 				<p class="fs-10">
 					We are a proudly Cambodian, family-run developer with a deep passion for building modern,
 					livable spaces that bring comfort and value to our community. With years of experience in

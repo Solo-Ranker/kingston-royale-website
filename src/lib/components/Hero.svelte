@@ -6,7 +6,7 @@
 			<div class="row g-1 align-items-center justify-center">
 				<div class="col-md-5 justify-center">
 					<img class="max-h-400 mx-auto d-block" style="max-width: 300px;" src="src/lib/assets/logowhite.png" alt="logo"/>
-					<h4 class="mb-0 text-center">Homes of integrity, for Cambodia's future</h4>
+					<h4 class="mb-0 text-center">A higher quality of living</h4>
 				</div>
 
 				<!-- <div class="col-lg-4">
@@ -27,7 +27,7 @@
 			<div class="swiper-wrapper">
 				<!-- Slides -->
 				<div class="swiper-slide">
-					<img src="src/lib/assets/l-hero.jpg" alt="Bedroom" class="swiper-inner trans-50" />
+					<img src="src/lib/assets/hero.png" alt="Bedroom" class="" />
 					<div class="sw-overlay op-4"></div>
 				</div>
 

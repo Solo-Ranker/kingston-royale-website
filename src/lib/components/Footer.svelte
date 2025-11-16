@@ -4,9 +4,9 @@
 			<div class="col-md-12">
 				<div class="d-lg-flex align-items-center justify-content-between text-center">
 					<div>
-						<h3 class="fs-20">Address</h3>
-						742 Evergreen Terrace<br />
-						Brooklyn, NY 11201
+						<h3 class="fs-20">Our Sales Gallery</h3>
+						St 430<br />
+						Phnom Penh, 120112
 					</div>
 					<div>
 						<img src="images/logo.webp" class="w-200px" alt="" /><br />

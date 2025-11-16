@@ -1,5 +1,5 @@
 <script>
-	import RoyaleBuilding from '$lib/assets/RoyaleBuilding.png';
+	import RoyaleBuilding from '$lib/assets/KingstonSuites.jpg';
 </script>
 
 <section
@@ -19,14 +19,14 @@
 				<!-- Text -->
 				<div class="col-lg-6 offset-lg-6 relative z-3">
 					<div class="ms-lg-5 ps-lg-5 my-5 py-5">
-						<div class="subtitle">SOLD OUT</div>
-						<p class="fs-40 lh-1-3">KINGSTON RESIDENCE</p>
+						<div class="subtitle">COMING SOON</div>
+						<p class="fs-40 lh-1-3">KINGSTON SUITES</p>
 						<p class="">
-							Kingston Residence is a 19-storey serviced apartment with 83 units, offering varieties
-							of 1 and 2 bedroom in central Phnom Penh. Located in Boeung Tumpun (BTB), it provides
-							easy access to key city destinations while maintaining a sense of privacy and ease.
-							With elegant interiors, attentive management, and hotel-standard amenities, Kingston
-							Residence delivers a refined and comfortable living experience for modern residents.
+							Kingston Suites is a 27-storey serviced apartment in the heart of Toul Tompoung,
+							offering one- and two-bedroom units designed for modern comfort. With premium
+							facilities and professional management, it’s ideal for expats seeking convenience and
+							quality in Phnom Penh’s most vibrant neighborhood. Combining style, service, and
+							location, Kingston Suites brings elevated living to the city’s urban core.
 						</p>
 						<a class="btn-main fx-slide" href="#"><span>Learn More</span></a>
 					</div>
