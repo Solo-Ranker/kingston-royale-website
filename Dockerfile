@@ -1,26 +1,38 @@
-# Stage 1: Builder
-FROM node:22-alpine 
-
-ENV CI=true 
-
-# Set working directory
+# Dockerfile.node
+# ---- builder ----
+FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Enable Corepack for PNPM (no need to install PNPM separately)
-RUN corepack enable
+ENV CI=true
 
-# Copy package files for dependency installation
+# enable corepack & pnpm
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
+# copy manifest files first for better layer caching
 COPY package.json pnpm-lock.yaml ./
 
-# Copy the rest of the application code
-COPY . .
-
-# Install dependencies with frozen lockfile for reproducibility
+# install deps (dev deps are needed to build)
 RUN pnpm install --frozen-lockfile
 
+# copy rest of source and build
+COPY . .
+RUN pnpm build
 
-EXPOSE 5173
+# prune dev deps to keep node_modules small
+RUN pnpm prune --prod
 
+# ---- runner ----
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
-# Start the server
-CMD ["pnpm", "run", "dev", "--host"]
+# copy built output and production node_modules
+COPY --from=builder /app/build ./build
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/static ./static
+
+EXPOSE 3000
+# Adjust if your adapter-node exports a different entrypoint
+CMD ["node", "build"]
