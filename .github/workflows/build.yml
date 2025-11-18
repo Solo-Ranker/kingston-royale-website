@@ -1,0 +1,33 @@
+name: kingston website ci/cd
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+  pull_request:
+    types:
+      - synchronize
+      - ready_for_review
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: write
+  packages: write
+  pull-requests: write
+
+jobs:
+  version:
+    uses: ./.github/workflows/version.yml
+
+  build:
+    uses: ./.github/workflows/container.yml
+    needs:
+      - version
+    with:
+      latest_tag: ${{ github.ref_name == 'develop' && 'develop' || 'latest' }}
+      image_version: ${{ github.ref_name == 'develop' && format('dev-{0}', needs.version.outputs.short_sha) || needs.version.outputs.project_version }}
+    if: ${{ contains(github.ref_name, 'develop') || contains(github.ref_name, 'master') }}
